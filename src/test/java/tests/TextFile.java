@@ -17,7 +17,7 @@ public class TextFile {
       String expectedData = "Я вам точно говорю.";
       //Читаем путь
       String actualData = readTextFromPath (txtPath);
-      //Проверяем содержание текстового файла
+      //Проверяем содержимое текстового файла
       assertThat(actualData, containsString(expectedData));
   }
 }
